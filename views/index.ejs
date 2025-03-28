@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="./static/styles/styles.css" />
 
-    <script src="./static/scripts/validacadastro.js" defer></script>
+    <!-- <script src="/static/scripts/scripts.js" defer></script> -->
   </head>
   <body>
     <section class="container">
@@ -18,49 +18,50 @@
           descubra novos lugares ao redor do mundo!
         </p>
       </div>
-      <form id="cadastroForm">
+      <form id="cadastroForm" method="post" action="cadastro">
         <div class="title">
           <h1>Cadastra-se</h1>
           <p>Preencha os campos abaixo e torne-se parte da nossa comunidade.</p>
         </div>
 
         <div class="input_data">
-          <input type="text" id="nome" name="nome" required />
+          <input type="text" id="nome" name="nome" value="Julia" required/>
           <label for="">Nome:</label>
         </div>
 
         <div class="input_data">
-          <input type="email" id="email" name="email" required />
+          <input type="email" id="email" value="julia.borgo@gmail.com" required/>
           <label for="">Email:</label>
         </div>
 
         <div class="input_data">
-          <input type="password" id="senha" name="senha" required />
+          <input type="password" id="senha" name="senha" value="Jujuborgo10/" required/>
           <label for="">Senha:</label>
         </div>
 
         <div class="input_data">
           <input
-            type="password"
+            type="senha"
             id="confirmarsenha"
             name="confirmarsenha"
+            value="Jujuborgo10/"
             required
           />
           <label for="">Confirmar senha:</label>
         </div>
 
         <div class="input_data">
-          <input type="tel" id="celular" name="celular" required />
+          <input type="tel" id="celular" name="celular" value="19994740405" required/>
           <label for="">Celular:</label>
         </div>
 
         <div class="input_data">
-          <input type="text" id="cpf" name="cpf" required />
+          <input type="text" id="cpf" name="cpf" value="476.791.548-13" required/>
           <label for="">Cpf:</label>
         </div>
 
         <div class="input_data">
-          <input type="text" id="rg" name="rg" required />
+          <input type="text" id="rg" name="rg" value="34.444.585-4" required/>
           <label for="">RG:</label>
         </div>
 

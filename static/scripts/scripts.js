@@ -19,7 +19,7 @@ const checkNome = () => {
   return nomeRegex.test(nome.value);
 };
 
-formulario.addEventListener("submit", fetchDatas);
+// formulario.addEventListener("submit", fetchDatas);
 
 nome.addEventListener("input", () => {
   if (nome.value && !checkNome()) {
