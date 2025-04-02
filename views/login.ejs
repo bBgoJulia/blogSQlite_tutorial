@@ -7,9 +7,13 @@
 
     <link rel="stylesheet" href="./static/styles/styles.css" />
 
-    <script src="./static/scripts/validacadastro.js" defer></script>
+    <!-- <script src="./static/scripts/validacadastro.js" defer></script> -->
   </head>
   <body>
+
+    <%- include("menu") %>
+   
+
     <section class="container">
       <div class="image_container">
         <h1>Crie sua conta</h1>
@@ -68,7 +72,9 @@
           <p class="msgError"></p>
           <button id="btnSubmit" type="submit">Enviar</button>
         </div>
+        
       </form>
     </section>
+    <%- include("footer") %>
   </body>
 </html>
